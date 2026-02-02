@@ -1,0 +1,10 @@
+﻿{
+  "name": "com.britoworks",
+  "version": "1.0.0",
+  "displayName": "BritoWorks",
+  "description": "Core utilities and extensions for Unity projects.",
+  "unity": "6000.3.2f1",
+  "author": {
+    "name": "Min Jun Kim"
+  }
+}
