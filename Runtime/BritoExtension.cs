@@ -1,18 +1,24 @@
-﻿using JetBrains.Annotations;
-using Unity.Mathematics;
+﻿using Unity.Mathematics;
 using UnityEngine;
-
-// ReSharper disable MemberCanBePrivate.Global
-// ReSharper disable UnusedMember.Global
-// ReSharper disable InconsistentNaming
 
 namespace BritoWorks
 {
 	/// <summary>
-	/// Brian's beautiful collection of static functions that helps him cope with laziness.
-	/// Common vector and transform extension methods for lightweight swizzles and fast math helpers.
+	/// BritoWorks Core Extensions.
+	///
+	/// A collection of allocation-free vector swizzles, distance helpers,
+	/// range checks, and direction utilities designed for performance-critical
+	/// Unity gameplay and simulation code.
+	/// Mainly used for terrible lazy programming.
 	/// </summary>
-	[UsedImplicitly]
+	/// <remarks>
+	/// Author: Min Jun Kim
+	/// Project: BritoWorks
+	/// Unity Version: 6000.3
+	///
+	/// This library favors explicit math over operator-heavy implementations
+	/// to reduce temporary allocations and improve predictability in hot paths.
+	/// </remarks>
 	public static class BritoExtension
 	{
 		#region Swizzles: Vector2 from Vector3

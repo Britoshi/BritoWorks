@@ -2,17 +2,23 @@ using Unity.Mathematics;
 using UnityEngine;
 using static Unity.Mathematics.math;
 
-// ReSharper disable MemberCanBeProtected.Global
-// ReSharper disable UnusedMember.Global
-// ReSharper disable InconsistentNaming
-// ReSharper disable MemberCanBePrivate.Global
-
 namespace BritoWorks
 {
 	/// <summary>
-	/// Base MonoBehaviour utilities and convenience wrappers for Unity + Unity.Mathematics.
-	/// Provides common transform accessors, vector constructors, and math helpers.
+	/// BritoWorks Base Behavior.
+	///
+	/// A convenience MonoBehaviour providing common transform accessors,
+	/// vector construction helpers, and thin math wrappers over
+	/// Unity.Mathematics for gameplay and simulation code.
 	/// </summary>
+	/// <remarks>
+	/// Author: Min Jun Kim
+	/// Project: BritoWorks
+	/// Unity Version: 6000.3 - Can work on older versions.
+	///
+	/// This class is intended as a lightweight base utility and does not
+	/// impose any framework-level behavior or lifecycle assumptions.
+	/// </remarks>
 	public class BritoBehavior : MonoBehaviour
 	{
 		#region Constants
