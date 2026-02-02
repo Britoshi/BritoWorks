@@ -1,6 +1,6 @@
-# BritoWorks Core
+# BritoWorks
 
-**BritoWorks Core** is a lightweight Unity utility package providing math helpers, vector constructors, swizzle-style extensions, and performance-oriented spatial operations.
+**BritoWorks** is a lightweight Unity utility package providing math helpers, vector constructors, swizzle-style extensions, and performance-oriented spatial operations.
 
 It is designed for reuse across gameplay, AI, and simulation code, with an emphasis on clarity, predictability, and zero unnecessary overhead.
 
