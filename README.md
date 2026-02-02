@@ -85,13 +85,7 @@ This class is intended as a convenience base, not a framework.
 
 ---
 
-## License
-
-**All Rights Reserved**
-
----
-
 ## Author
 
 **Min Jun Kim**  
-BritoWorks
+Britoshi
